@@ -1,24 +1,66 @@
-/* Intentional Errors: Find and fix them! */
+
+.topnav {
+    overflow: hidden;
+    background-color:white;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 25px 10px;
+    text-decoration: none;
+  }
+  .logo {
+    display: block;
+    width: 190px;
+    margin-top: 30px;
+    float: left;
+    position: relative;
+    top: -3x;
+    left:10px;
+  }
+
+  .hero-image {
+    background-image:url("https://miro.medium.com/v2/resize:fit:1400/0*N0OY_7L7U_2I-0yH.jpeg");
+    width: 1330px;
+   height:550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    
+
+  }
 .container {
     margin: auto;
+    position:absolute;
+    width:50%;
     padding: 20px;
-    background-color: #33cc33;
-    border: 2px solid #ff0000;
-    text-align: center;
-    width: 50%
-    height: 50%
+    background-color:white;
+    border: 5px solid black;
+    text-align:center;
+    max-width: 30%;
+    min-height: 35%;
+    margin-left: 420px;
+    margin-top: 50px; ;
+
+   
 }
 
 h1 {
-    font-size: 24px;
-    color: #000;
+    font-size: 40px;
+    color:rgb(10, 10, 112);
 }
 
 p {
-    font-size: 18px;
-    margin-top: 10px;
-    color: #333;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
 }
 
 body {
     background-color: #f0f0f0;
+}
+
